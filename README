@@ -1,0 +1,5 @@
+The SHA-256 algorithm is implemented in several steps:
+Preprocessing: Pads the input message to ensure its length is a multiple of 512 bits.
+Chunk Processing: Processes the message in 512-bit chunks, updating the hash value for each chunk.
+Finalization: Produces the final 256-bit hash value.
+The implementation closely follows the pseudocode structure.
